@@ -1,0 +1,62 @@
+.Info_conteiner{
+	.Info_aboutUs{
+		display: flex;
+		margin-bottom: 180px;
+		
+		img{
+			margin-right: 148px;
+		}
+		.Info_block{
+
+			.Info_title{
+				font-weight: 500;
+				font-size: 35px;
+				line-height: 41px;
+				color: #0B132A;
+				margin-bottom: 16px;
+			}
+			p{
+				font-weight: 400;
+				font-size: 17px;
+				line-height: 25px;
+				color: #4F5665;
+				margin-bottom: 5px;
+				&:last-child{
+					margin: 0;
+				}
+			}
+		}	
+	}
+
+
+	.Info_contact{
+		margin-bottom: 127px;
+		display: flex;		
+		justify-content: space-between;
+		
+
+		.Info_second_block{
+
+			.Info_contact_title{
+				font-weight: 500;
+				font-size: 35px;
+				line-height: 41px;
+				color: #0B132A;
+				margin-bottom: 16px;
+
+			}
+			.Info_contact_email{
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 19px;
+				color: #4F5665;
+				
+				
+				span{
+					display: inline-block;
+					margin-right:32px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+.Footer_conteiner{
+	display: flex;
+	height: 211.41px;
+	margin-bottom: 39.59px;
+
+	.Footer_firstBlock{
+		flex: 0 1 100%;
+		display: flex;
+		flex-direction: column;
+
+		.Footer_logo{
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 28px;
+			color: #0B132A;
+			flex: 0 1 100%;
+			
+			span{
+				color: #147E45;
+			}
+		}
+		.Footer_copy{
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 30px;
+			color: #AFB5C0;
+		}
+	}
+
+	.Footer_aboutUs_list{
+		min-width: 288px;
+		margin-right: 55px;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 30px;
+		color: #0B132A;	
+
+		li{
+			margin-bottom: 12px;	
+			&:last-child{
+				margin: 0;
+				
+			}
+			a{
+				text-decoration: none;
+				color: #0B132A;	
+				cursor: pointer;
+			}
+		}
+	}
+	.Footer_contact_list{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		color: #4F5665;
+		margin-top: 6px;
+		.Footer_contact_green{
+			color: #147E45;
+			margin-bottom: 27;
+		}
+		li{
+			margin-bottom: 23px;
+			cursor: pointer;
+		}
+	}
+}

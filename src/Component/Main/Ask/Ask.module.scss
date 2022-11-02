@@ -1,0 +1,55 @@
+.Ask_conteiner{
+	background: #FFFFFF;
+	height: 233px;
+	box-shadow: 0px 4px 63px rgba(165, 165, 165, 0.25);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 124px;
+
+	.Ask_info{
+		width: 410px;
+		margin-right: 164px;
+		margin-left: 100px;
+	}
+	.Ask_title{
+		font-weight: 500;
+		font-size: 35px;
+		line-height: 45px;
+		color: #0B132A;
+		margin-bottom: 13px;
+
+	}
+	.Ask_text{
+		font-weight: 400;
+		font-size: 17px;
+		line-height: 25px;
+		display: flex;
+		align-items: center;
+		color: #4F5665;
+	}
+
+	.Ask_button{
+		width: 300px;
+		height: 60px;
+		background: #147E45;
+		box-shadow: 0px 4px 20px rgba(13, 77, 42, 0.33);
+		border-radius: 10px;	
+		border: none;
+		cursor: pointer;
+
+		&:hover{
+			background: #1FB765;
+		}
+		&:active{
+			background: #147E45;	
+		}
+
+		span{
+			font-weight: 700;
+			font-size: 17px;
+			line-height: 25px;
+			color: #FFFFFF;
+		}
+	}
+}

@@ -1,0 +1,212 @@
+.Tank_conteiner{
+	display: flex;
+	flex: 0 1 50%;
+	width: 550px;
+
+
+
+	.Tank_imgBlock{
+		min-width: 236px;
+		margin-left: 12px;
+		img{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+		
+	}
+	.Tank_info{
+		padding-right:49px;
+		display: flex;
+		flex-direction: column;
+		
+
+
+		.Tank_title{
+			width: 183px;
+			font-weight: 500;
+			font-size: 19px;
+			line-height: 23px;
+			margin-bottom: 12px;
+			color: #0B132A;
+		}
+		.Tank_text{
+			width: 229px;
+			font-weight: 400;
+			font-size: 17px;
+			line-height: 25px;
+			color: #4F5665;
+			flex: 0 1 100%;
+			
+		}
+
+		.Tank_button{
+			background: #FFFFFF;
+			border: 2px solid #147E45;
+			border-radius: 10px;
+			width: 300px;
+			min-height: 60px;
+			cursor: pointer;
+
+			&:hover{
+				background:#1FB765;
+				span{
+					color: #FFFFFF;
+				}
+			}
+			&:active{
+				background: #147E45;
+				
+				span{
+					color: #FFFFFF;
+				}
+			}
+			span{
+				font-weight: 700;
+				font-size: 17px;
+				line-height: 20px;
+				color: #147E45;
+			}
+		}
+	}
+}
+
+// Drill !!!---------------------------------------------------------!!!
+.Drill_conteiner{
+	display: flex;
+	flex: 0 1 50%;
+	height: 284px;
+
+	.Drill_imgBlock{
+		min-width: 236px;
+		margin-left: 15px;
+		img{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+		
+	}
+	.Drill_info{
+		width:300px;
+		display: flex;
+		flex-direction: column;
+		margin-left: -10px;
+		
+
+
+		.Drill_title{
+			font-weight: 500;
+			font-size: 19px;
+			line-height: 23px;
+			margin-bottom: 12px;
+			color: #0B132A;
+		}
+		.Drill_text{
+			font-weight: 400;
+			font-size: 17px;
+			line-height: 25px;
+			color: #4F5665;
+			padding-bottom: 26px;
+			flex: 0 1 100%
+			
+		}
+
+		button{
+			background: #FFFFFF;
+			border: 2px solid #147E45;
+			border-radius: 10px;
+			width: 300px;
+			min-height: 60px;
+			cursor: pointer;
+
+			&:hover{
+				background:#1FB765;
+				span{
+					color: #FFFFFF;
+				}
+			}
+			&:active{
+				background: #147E45;
+				
+				span{
+					color: #FFFFFF;
+				}
+			}
+			span{
+				font-weight: 700;
+				font-size: 17px;
+				line-height: 20px;
+				color: #147E45;
+			}
+		}
+	}
+}
+
+// Motobur !!!---------------------------------------------------------!!!
+
+.Motobur_conteiner{
+	display: flex;
+	height: 284px;
+	width: 551px;
+
+	.Motobur_imgBlock{
+		width: 209px;
+		margin-right:27px;
+		display: flex;
+		align-items: center;
+		img{
+			max-width: 100%;
+		}
+	}
+	.Motobur_info{
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		
+		.Motobur_title{
+			font-weight: 500;
+			font-size: 19px;
+			line-height: 23px;
+			color: #0B132A;
+			margin-bottom: 12px;
+		}
+		.Motobur_text{
+			font-weight: 400;
+			font-size: 17px;
+			line-height: 25px;
+			color: #4F5665;
+			flex: 0 1 100%;
+		}
+		button{
+			background: #FFFFFF;
+			border: 2px solid #147E45;
+			border-radius: 10px;
+			width: 300px;
+			min-height: 60px;
+			cursor: pointer;
+
+			&:hover{
+				background:#1FB765;
+				span{
+					color: #FFFFFF;
+				}
+			}
+			&:active{
+				background: #147E45;
+				
+				span{
+					color: #FFFFFF;
+				}
+			}
+			span{
+				font-weight: 700;
+				font-size: 17px;
+				line-height: 20px;
+				color: #147E45;
+			}
+		}
+	}
+}

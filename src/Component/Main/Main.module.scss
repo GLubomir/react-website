@@ -1,0 +1,27 @@
+.Main_conteiner{
+
+
+	.main_title{
+		font-weight: 500;
+		font-size: 35px;
+		line-height: 41px;
+		color: #0B132A;
+		margin-bottom: 127px;
+	}
+	.first_block{
+		display: flex;
+	}
+	.two_block{
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 264px;
+
+		.product_first_conteiner{
+			border-right: 2px solid #E5E5E5;
+			padding-right: 49px;
+			margin-right: 49px;
+			
+		}
+	}
+
+}

@@ -1,0 +1,21 @@
+.equipment-conteiner{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 166px;
+}
+
+.first-border-conteiner{
+	border-right: 2px solid #E5E5E5;
+	border-bottom: 2px solid #E5E5E5;
+	padding-right:49px;
+	padding-bottom:49px;
+}
+.two-border-conteiner{
+	border-bottom: 2px solid #E5E5E5;
+}
+
+.three-border-conteiner{
+	border-right: 2px solid #E5E5E5;
+	padding-top: 49px;
+	padding-right: 59px;
+}
